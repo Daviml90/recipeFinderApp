@@ -15,7 +15,7 @@ class RecipeFinderModel: ObservableObject {
     @Published var restrictions: [Ingredient] = []
     @Published var notFound: Bool = false
     @Published var appliedTexts: [String] = []
-    @Published var ingredientsList: [String] = ["banana"]
+    @Published var ingredientsList: [String] = []
     @Published var favoriteRecipes: [Recipe] = []
     
     // Search Data
